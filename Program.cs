@@ -16,8 +16,9 @@ namespace VendingMachine
                , "3- Lemon Tea", "4- Iced Coffee");
 
             string a = Console.ReadLine();
+            Console.WriteLine("Recipes:");
             switch (a)
-            {
+            {                
                 case "1":
                     var hotChoclate = new HotChoclate();
                     hotChoclate.BoilWater();
